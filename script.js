@@ -10,8 +10,8 @@ function onDropdownChange() {
 
 function getImageUrl(word) {
   var imageUrls = {
-    Word1: 'https://github.com/MrWrEv/MrWrEv.github.io/edit/main/act.svg',
-    Word2: 'https://github.com/MrWrEv/MrWrEv.github.io/edit/main/attach.svg',
+    Word1: 'MrWrEv.github.io/edit/main/act.svg',
+    Word2: 'MrWrEv.github.io/edit/main/attach.svg',
     // Add more words and their corresponding image URLs here
   };
 
