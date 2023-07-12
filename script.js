@@ -9,11 +9,8 @@ function onDropdownChange() {
 }
 
 function getImageUrl(word) {
-  var imageUrls = {
-    Word1: 'MrWrEv.github.io/edit/main/act.svg',
-    Word2: 'MrWrEv.github.io/edit/main/attach.svg',
-    // Add more words and their corresponding image URLs here
-  };
-
-  return imageUrls[word] || '';
+  var imagePath = 'https://MrWrEv.github.io/edit/main/images/';
+  var imageExtension = '.svg';
+  
+  return imagePath + word + imageExtension;
 }
