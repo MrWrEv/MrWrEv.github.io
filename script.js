@@ -9,7 +9,7 @@ function onDropdownChange() {
 }
 
 function getImageUrl(word) {
-  var imagePath = 'https://github.com/MrWrEv/MrWrEv.github.io/blob/main/images/';
+  var imagePath = 'https://raw.githubusercontent.com/MrWrEv/MrWrEv.github.io/main/images/';
   var imageExtension = '.svg';
   
   return imagePath + word + imageExtension;
