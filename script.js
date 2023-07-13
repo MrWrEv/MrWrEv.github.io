@@ -10,7 +10,7 @@ function onDropdownChange() {
   image.src = imageUrl;
 
   previewImage.style.display = imageUrl ? 'block' : 'none';
-  image.style.display = imageUrl ? 'block' : 'none';
+  image.style.display =  'none';
 }
 
 function getImageUrl(word) {
