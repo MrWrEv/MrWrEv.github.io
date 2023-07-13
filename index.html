@@ -11,6 +11,18 @@
         margin-top: 10px;
       }
 
+      .image-preview {
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      .image-preview img {
+        max-width: 200px;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        margin-bottom: 10px;
+      }
+
       .button-container {
         margin-top: 10px;
       }
@@ -103,10 +115,13 @@
         <option value="Write">Write</option>
         <option value="You do">You do</option>
        </select>
-    <div id="message"></div>
+ <div id="message"></div>
+    <div class="image-preview">
+      <img id="previewImage" />
+    </div>
     <div class="button-container">
       <button id="downloadButton" onclick="downloadImage()">Download Image</button>
     </div>
-    <img id="wordImage" />
+    <img id="wordImage" style="display: none;" />
   </body>
 </html>
