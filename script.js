@@ -3,8 +3,13 @@ function onDropdownChange() {
   var selectedWord = dropdown.options[dropdown.selectedIndex].value;
   var imageUrl = getImageUrl(selectedWord);
 
+  var previewImage = document.getElementById('previewImage');
   var image = document.getElementById('wordImage');
+  
+  previewImage.src = imageUrl;
   image.src = imageUrl;
+
+  previewImage.style.display = imageUrl ? 'block' : 'none';
   image.style.display = imageUrl ? 'block' : 'none';
 }
 
@@ -24,3 +29,5 @@ function downloadImage() {
   anchor.download = 'image.png';
   anchor.click();
 }
+
+
