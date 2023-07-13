@@ -30,7 +30,7 @@ function downloadImage() {
       var anchor = document.createElement('a');
       var url = URL.createObjectURL(blob);
       anchor.href = url;
-      anchor.download = 'image.png';
+      anchor.download = 'image.svg';
       anchor.click();
       URL.revokeObjectURL(url);
     });
